@@ -17,9 +17,12 @@ Setiap folder top-level adalah satu paket stow, isinya meniru struktur `$HOME`.
 | `kitty`     | `.config/kitty`                                                                                                |
 | `foot`      | `.config/foot/foot.ini`                                                                                        |
 | `cava`      | `.config/cava`                                                                                                 |
-| `matugen`   | `.config/matugen` (template warna)                                                                             |
 | `kde`       | `kdeglobals`, `kwinrc`, `kwinrulesrc`, `kglobalshortcutsrc`, `plasmarc`, `plasmashellrc`, `plasma-*-appletsrc` |
 | `kineticwe` | `.config/kineticwe/*.kwe` + `*outputconfig.json`                                                               |
+
+Tidak diikutkan: sisa rice Hyprland (`~/.config/hypr`, `~/.config/niri`, quickshell,
+`~/.config/matugen`), `.gitconfig`, `~/.config/btop`, `~/.config/lazygit`, profil/globalStorage
+VS Code, dan file `*.backup.*`.
 
 ## Pakai
 

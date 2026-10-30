@@ -61,7 +61,6 @@ export EDITOR="nvim"
 
 # Dynamic System Paths
 export WALLPAPER_DIR="/home/ayasy/Pictures/Wallpapers"
-export SCRIPT_DIR="/home/ayasy/.config/hypr/scripts"
 
 
 canmon() {
