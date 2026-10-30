@@ -1,0 +1,74 @@
+[2a93c479-c1d3-4254-bc46-f64bc5385397]
+Description=mpv pop up
+above=true
+aboverule=3
+maxsize=1248,772
+maxsizerule=2
+skippager=true
+skippagerrule=3
+wmclass=^(mpv|mpc-qt)$
+wmclassmatch=3
+
+[2ca00474-2e50-42f6-9ccb-8f2cbf8f98fe]
+Description=No Frame
+Enabled=false
+decorationpolicy=0
+decorationpolicyrule=3
+wmclasscomplete=true
+
+[2cf8de05-db66-41c7-a686-bdf7d5ce316c]
+Description=Window settings for org.kde.plasma.emojier
+Enabled=false
+opacityactive=90
+opacityactiverule=2
+size=200,200
+sizerule=3
+skippager=true
+skippagerrule=3
+title=Emoji Selector
+types=1
+wmclass=plasma-emojier org.kde.plasma.emojier
+wmclasscomplete=true
+wmclassmatch=1
+
+[3b974be7-aeb5-41f9-8891-275383224be3]
+Description=Application settings for ai.storyteller.pdfcraft
+decorationpolicy=0
+decorationpolicyrule=3
+wmclass=pdfcraft ai.storyteller.pdfcraft
+wmclasscomplete=true
+wmclassmatch=1
+
+[67a6f2bd-35e4-4b53-a25c-1fd5ff220ad1]
+Description=Window settings for Picture in picture
+above=true
+aboverule=3
+skippager=true
+skippagerrule=3
+title=Picture in picture
+titlematch=2
+types=1
+wmclasscomplete=true
+
+[General]
+count=7
+rules=e34bfee1-6685-4a0f-8430-128e0dfc9c00,3b974be7-aeb5-41f9-8891-275383224be3,67a6f2bd-35e4-4b53-a25c-1fd5ff220ad1,2cf8de05-db66-41c7-a686-bdf7d5ce316c,2a93c479-c1d3-4254-bc46-f64bc5385397,bbe97aa6-635d-41dd-b4a3-6147e330f1b1,2ca00474-2e50-42f6-9ccb-8f2cbf8f98fe
+
+[bbe97aa6-635d-41dd-b4a3-6147e330f1b1]
+Description=Picture-in-Picture window
+above=true
+aboverule=3
+skippager=true
+skippagerrule=3
+title=Picture-in-Picture
+titlematch=2
+types=1
+wmclasscomplete=true
+
+[e34bfee1-6685-4a0f-8430-128e0dfc9c00]
+Description=Application settings for ai.storyteller.gridcraft
+decorationpolicy=0
+decorationpolicyrule=2
+wmclass=gridcraft ai.storyteller.gridcraft
+wmclasscomplete=true
+wmclassmatch=1

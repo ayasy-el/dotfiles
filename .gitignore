@@ -1,0 +1,5 @@
+# backup / sementara
+*.bak
+*.backup.*
+*.swp
+.DS_Store

@@ -1,0 +1,35 @@
+{
+  "ui_font_weight": 400.0,
+  "ui_font_size": 15.6,
+  "diff_view_style": "split",
+  "collaboration_panel": {
+    "button": false
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "sidebar_side": "right",
+    "button": false,
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "cli_default_open_behavior": "existing_window",
+  "colorize_brackets": true,
+  "proxy": "",
+  "buffer_font_size": 16.0,
+  "buffer_font_family": "Source Code Pro",
+  "project_panel": {
+    "dock": "left",
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Material Icon Theme",
+  },
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Fleet Dark",
+  }
+}

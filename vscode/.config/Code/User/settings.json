@@ -1,0 +1,71 @@
+{
+  "workbench.colorCustomizations": {
+    "editor.wordHighlightBackground": "#0108275d",
+    "editor.selectionBackground": "#989afa2f",
+    "[Material Theme Darker High Contrast]": {}
+  },
+  "editor.tabCompletion": "on",
+  "terminal.integrated.fontSize": 15,
+  "code-runner.enableAppInsights": false,
+  "code-runner.saveFileBeforeRun": true,
+  "debug.terminal.clearBeforeReusing": true,
+  "editor.formatOnSave": true,
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "editor.linkedEditing": true,
+  "html.format.wrapLineLength": 0,
+  "material-icon-theme.folders.color": "#42a5f5",
+  "material-icon-theme.files.color": "#42a5f5",
+  "alias-tool.mappings": {
+    "@": "${folder}"
+  },
+  "path-autocomplete.pathMappings": {
+    "@": "${folder}"
+  },
+  "go.lintOnSave": "file",
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
+  "editor.fontFamily": " Source Code Pro, Consolas, 'Courier New', monospace",
+  "code-runner.runInTerminal": true,
+  "terminal.integrated.fontFamily": "RobotoMono Nerd Font Mono",
+  "editor.fontSize": 18,
+  "notebook.markup.fontSize": 15,
+  "vscode-office.editorTheme": "Auto",
+  "notebook.formatOnSave.enabled": true,
+  "editor.formatOnPaste": true,
+  "interactiveWindow.executeWithShiftEnter": true,
+  "mesonbuild.downloadLanguageServer": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.printWidth": 100,
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "material-icon-theme.folders.theme": "specific",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "testing.resultsView.layout": "treeLeft",
+  "python.defaultInterpreterPath": "/home/ayasy/.python_env",
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+}
