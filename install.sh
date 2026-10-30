@@ -8,7 +8,7 @@ cd "$(dirname "$0")"
 
 packages=("$@")
 if [ ${#packages[@]} -eq 0 ]; then
-  mapfile -t packages < <(find . -maxdepth 1 -mindepth 1 -type d -not -name '.*' -printf '%f\n' | sort)
+  mapfile -t packages < <(find . -maxdepth 1 -mindepth 1 -type d -not -name '.*' -not -name '_*' -printf '%f\n' | sort)
 fi
 
 for pkg in "${packages[@]}"; do

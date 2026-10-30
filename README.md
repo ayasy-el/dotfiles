@@ -18,6 +18,16 @@ Konfigurasi pribadi untuk Arch/KDE (KineticWE), dikelola dengan [GNU Stow](https
 | `kde`       | `kdeglobals`, `kwinrc`, `kwinrulesrc`, `kglobalshortcutsrc`, `plasmarc`, `plasmashellrc`, `plasma-*-appletsrc` |
 | `kineticwe` | `.config/kineticwe/*.kwe` + `*outputconfig.json`                                                               |
 
+Noctalia (bar/dock) tidak di-stow: config-nya di `~/.local/state/noctalia-kwe/settings.toml`
+dan ditulis ulang aplikasi tiap kali setting diubah. Snapshot-nya ada di `_noctalia/`,
+sinkron manual:
+
+```sh
+./sync-noctalia.sh save   # live -> repo
+./sync-noctalia.sh load   # repo -> live + config-reload
+./sync-noctalia.sh diff
+```
+
 ## Pakai
 
 ```sh
