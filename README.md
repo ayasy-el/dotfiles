@@ -4,8 +4,6 @@ Konfigurasi pribadi untuk Arch/KDE (KineticWE), dikelola dengan [GNU Stow](https
 
 ## Struktur
 
-Setiap folder top-level adalah satu paket stow, isinya meniru struktur `$HOME`.
-
 | Paket       | Isi                                                                                                            |
 | ----------- | -------------------------------------------------------------------------------------------------------------- |
 | `shell`     | `.zshrc`, `.bashrc`, `.bash_profile`, `.profile`                                                               |
@@ -19,10 +17,6 @@ Setiap folder top-level adalah satu paket stow, isinya meniru struktur `$HOME`.
 | `cava`      | `.config/cava`                                                                                                 |
 | `kde`       | `kdeglobals`, `kwinrc`, `kwinrulesrc`, `kglobalshortcutsrc`, `plasmarc`, `plasmashellrc`, `plasma-*-appletsrc` |
 | `kineticwe` | `.config/kineticwe/*.kwe` + `*outputconfig.json`                                                               |
-
-Tidak diikutkan: sisa rice Hyprland (`~/.config/hypr`, `~/.config/niri`, quickshell,
-`~/.config/matugen`), `.gitconfig`, `~/.config/btop`, `~/.config/lazygit`, profil/globalStorage
-VS Code, dan file `*.backup.*`.
 
 ## Pakai
 
